@@ -1,0 +1,121 @@
+/* Body & layout */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+/* Page title */
+.page-title {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: #2c3e50;
+  font-weight: bold;
+  border-bottom: 3px solid #4CAF50;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+/* Form container */
+form {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Input fields & select box */
+input, select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Label styling */
+label {
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #333;
+  display: block;
+}
+
+/* Button group */
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+/* Buttons */
+button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  width: 45%;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button[type="submit"] {
+  background-color: #007BFF;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Hide the Other Board input initially */
+#otherBoard {
+  display: none;
+  margin-top: 8px;
+}
+
+.success-message {
+  color: green;
+  background-color: #e6ffed;
+  padding: 12px 15px;
+  border: 1px solid #a6d8a8;
+  border-radius: 5px;
+  margin-top: 15px;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+/* ----------- Success Page Specific ----------- */
+
+.message-box {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 350px;
+  text-align: center;
+}
+
+.message-box p {
+  font-size: 16px;
+  color: #333;
+  margin: 10px 0 20px 0;
+}
+
